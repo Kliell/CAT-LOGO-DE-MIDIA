@@ -55,6 +55,7 @@ O Convex gerenciará seu banco de dados automaticamente.
 ```bash
 # Inicie o ambiente de desenvolvimento do Convex
 # Isso abrirá o painel no navegador e criará seu arquivo .env.local
+# Crie um novo projeto
 npx convex dev
 ```
 
@@ -74,7 +75,7 @@ Em um novo terminal (mantendo o `convex dev` rodando):
 npx expo start
 ```
 
-Pressione `a` para Android, `i` para iOS ou escaneie o QR Code com o app Expo Go.
+Pressione `a` para Android, `i` para iOS, `w` para windows ou escaneie o QR Code com o app Expo Go.
 
 -----
 
@@ -90,19 +91,6 @@ Pressione `a` para Android, `i` para iOS ou escaneie o QR Code com o app Expo Go
 ├── convex/              # Backend (Schema e Funções de API)
 └── .env.local           # Configurações de conexão (ignorado pelo git)
 ```
-
------
-
-## 📌 Issue Tracking
-
-Para manter a organização do desenvolvimento, utilizamos as **GitHub Issues**. Você pode acompanhar o progresso das tarefas pendentes, bugs e novas funcionalidades na aba de Issues deste repositório.
-
-**Tarefas Atuais:**
-
-  * [ ] Implementar busca por título em tempo real.
-  * [ ] Adicionar persistência de "Favoritos" via AsyncStorage.
-  * [ ] Criar tela de detalhes do livro.
-  * [ ] Upload de imagens de capa diretamente da galeria.
 
 -----
 
