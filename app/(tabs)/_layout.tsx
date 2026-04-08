@@ -5,7 +5,7 @@ export default function TabLayout() {
   return (
     <Tabs screenOptions={{
       tabBarActiveTintColor: Colors.accent,
-      headerShown: true, // Garante que o título apareça
+      headerShown: true, 
     }}>
       <Tabs.Screen
         name="index"

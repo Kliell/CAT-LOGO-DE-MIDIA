@@ -65,29 +65,3 @@ const localStyles = StyleSheet.create({
     color: Colors.secondary,
   }
 });
-
-// import React from 'react';
-// import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
-// import { globalStyles } from '../assets/styles/styles';
-
-// interface BookProps {
-//   title: string;
-//   author: string;
-//   coverUrl: string;
-//   onPress: () => void;
-// }
-
-// export const BookCard = ({ title, author, coverUrl, onPress }: BookProps) => (
-//   <TouchableOpacity style={globalStyles.card} onPress={onPress}>
-//     <Image source={{ uri: coverUrl }} style={localStyles.image} />
-//     <View style={localStyles.info}>
-//       <Text style={globalStyles.cardTitle}>{title}</Text>
-//       <Text style={globalStyles.cardAuthor}>{author}</Text>
-//     </View>
-//   </TouchableOpacity>
-// );
-
-// const localStyles = StyleSheet.create({
-//   image: { width: 50, height: 75, borderRadius: 4 },
-//   info: { marginLeft: 12, flex: 1, justifyContent: 'center' },
-// });
